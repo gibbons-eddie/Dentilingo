@@ -1,19 +1,6 @@
 Dentalingo
 
-- Project Overview
 ![final presentation2](https://github.com/user-attachments/assets/b3647be2-87e8-43b0-8985-9a9c03a7160e)
-
-- Flowchart
-![final presentation5](https://github.com/user-attachments/assets/4b6efc69-87e4-4e46-9927-fb5b66d01993)
-
-- UML Diagram
-![final presentation6](https://github.com/user-attachments/assets/17c301be-58b6-4f14-85b5-2d6d13c662c6)
-
-- Entity Relationship Diagram
-![final presentation7](https://github.com/user-attachments/assets/54d484d2-4b34-4df7-b9b1-7cf6be925d4a)
-
-- GUI Screenshots 
-![final presentation8](https://github.com/user-attachments/assets/f201d486-2214-4dd3-9681-db58fdee11c5)
 
 # A Language Learning Application for Dental Students in Thailand
 
@@ -53,13 +40,13 @@ The software that we developed using the Flutter kit is compatible with many oth
 
 ---
 
-### 1.1. Problem Domain
+### 1.1 Problem Domain
 
 Computer-based learning technology has only grown in recent years. Students in all grades have grown accustomed to online learning interfaces, such as Canvas, and have performed in online and virtual lectures through video conferencing software such as Zoom, especially in recent years. However, there hasn’t been a virtual language learning application equivalent to the in-person class experience. There have existed apps that teach various dialects such as Udemy and Mango Languages for many years, but they just don’t apply to everyone in the way that Canvas and Zoom have dominated their respective computer-based learning fields. Our application is a first step towards directly applicable education technology that has a singular focus on one area, one field of a language. Our solution to this is our application that we have created for Thai dental students, which we built for students and teachers at the university to be able to use to better learn English so they can communicate with their English-speaking clients more effectively. We have a progression system in place that will take students through the focal parts of English grammar and reading comprehension that utilizes many familiar exercises and also innovative learning practices.
 
 ---
 
-### 1.2. Literature Overview
+### 1.2 Literature Overview
 
 In order to build this application to provide as complete of a language learning experience as possible, we had to first research where other similar platforms got their success. Being the most popular for quite some time now, Duolingo has dominated when it comes to mobile education applications. Students familiar with the platform cite this as the biggest benefit of using the service: the mobility [1]. Despite this, it has never escaped being the complement to learning foreign languages, and it has remained secondary to an official curriculum to this day. It does help students in their language courses, but Duolingo could take a stronger foothold in that area of computer-based learning if the content provided was as expansive as the curriculum found in schools.
 
@@ -71,7 +58,7 @@ This is found not only between Thai-English speakers, but also Japanese-English 
 
 ## 2. Technical Approach
 
-### 2.1. Solution (Technical Approach)
+### 2.1 Solution (Technical Approach)
 
 To help nonnative English speakers get better-focused assistance with learning the English language as well as improve their confidence with their accents, our team has developed **Project Dentalingo**, an English language learning mobile application made and catered for Thailand students in dentistry. Using the Flutter development kit, we are able to support our platform on any device that these students use on a day-to-day basis. 
 
@@ -79,7 +66,7 @@ Project Dentalingo has been built from what users expect from other popular lang
 
 ---
 
-### 2.2. Results (Technical Approach)
+### 2.2 Results (Technical Approach)
 
 For all these components of our application, we made sure to consult with both professors and students at the Chiang Mai Faculty of Dentistry to form our types of exercises and phrases. This also applies to the overall look of our app; we wanted to keep the UI minimal but efficient with a clear colorway for visual appeal. We wanted any users of Project Dentalingo to be able to practice and hone their English skills without much setup time. 
 
@@ -89,7 +76,7 @@ This was the main way Yuchen and I figured out how to parse through all the reco
 
 ---
 
-### 2.3. Technical Challenges and Solutions
+### 2.3 Technical Challenges and Solutions
 
 The largest challenge myself and many others were faced with was integrating SQLite functions into our Flutter-based application. There was a Flutter package called “SQFlite” that we decided to use, but connecting it to the database I initially created was tougher than I could’ve imagined. Basically, since we were running our app in an emulator during most of our production, the simulator would run our app with its own internal database that it was linking itself to every time. We had to manually create a function that would run on startup that would copy the database file’s contents over to the local one of the simulator so that all our data tables could be queried and referenced as intended.
 
@@ -107,7 +94,7 @@ Throughout this project, I have learned to work in a team environment. My teamma
 
 ---
 
-### 3.1. Standards and Constraints
+### 3.1 Standards and Constraints
 
 **Standards:** All programming conformed to the Dart Programming Language Specification 5th edition, which is an ECMA standard. Both a Dart VM with just-in-time (JIT) compilation and an ahead-of-time (AOT) compiler were employed.  
 
@@ -115,13 +102,13 @@ Throughout this project, I have learned to work in a team environment. My teamma
 
 ---
 
-### 3.2. Acknowledgements
+### 3.2 Acknowledgements
 
 The author would like to thank his advisor, Dr. Tanida. Her aid with conducting the meetings between us and the student was really appreciated to garner feedback and ideas for the application.
 
 ---
 
-### 3.3. References
+### 3.3 References
 
 1. Munday, Pilar. (2015). _The case for using Duolingo as part of the language classroom experience._ RIED. Revista Iberoamericana de Educación a Distancia. 19. 10.5944/ried.19.1.14581. 
 2. Nushi, Musa, and Mohamad Hosein Eqbali. “DUOLINGO: A MOBILE APPLICATION TO ASSIST SECOND LANGUAGE LEARNING.” The Journal of Teaching English with Technology, vol. 17, no. 1, pp. 89–98. [Read Full Text](https://files.eric.ed.gov/fulltext/EJ1135889.pdf)
@@ -130,3 +117,13 @@ The author would like to thank his advisor, Dr. Tanida. Her aid with conducting 
 5. Doloh, Sunaisah, and Natthapong Chanyoo. “Relationships between Thai EFL Learners’ Factors, Intelligibility, and Comprehensibility towards Varieties of English.” _Theory and Practice in Language Studies_, vol. 12, no. 1, 2022, pp. 46–54. [DOI](https://doi.org/10.17507/tpls.1201.06)
 
 ---
+
+### 3.4 Diagrams and Charts
+
+![final presentation5](https://github.com/user-attachments/assets/4b6efc69-87e4-4e46-9927-fb5b66d01993)
+
+![final presentation6](https://github.com/user-attachments/assets/17c301be-58b6-4f14-85b5-2d6d13c662c6)
+
+![final presentation7](https://github.com/user-attachments/assets/54d484d2-4b34-4df7-b9b1-7cf6be925d4a)
+
+![final presentation8](https://github.com/user-attachments/assets/f201d486-2214-4dd3-9681-db58fdee11c5)
